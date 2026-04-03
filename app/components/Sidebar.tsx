@@ -17,7 +17,7 @@ export default function Sidebar() {
     <aside className="fixed top-0 left-0 z-50 flex flex-col w-60 min-h-screen bg-surface border-r border-border">
       {/* Logo */}
       <div className="flex items-center gap-2.5 px-5 py-6 border-b border-border">
-        <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-brand to-brand2 flex items-center justify-center shrink-0">
+        <div className="w-8 h-8 rounded-lg bg-linear-to-br from-brand to-brand2 flex items-center justify-center shrink-0">
           <Zap size={16} color="white" fill="white" />
         </div>
         <span className="font-display font-bold text-lg tracking-tight text-textprimary">
@@ -28,7 +28,7 @@ export default function Sidebar() {
       {/* User card */}
       <div className="px-5 py-4 border-b border-border">
         <div className="flex items-center gap-2.5">
-          <div className="w-10 h-10 rounded-full bg-gradient-to-br from-brand to-brand2 flex items-center justify-center text-xs font-bold text-white shrink-0">
+          <div className="w-10 h-10 rounded-full bg-linear-to-br from-brand to-brand2 flex items-center justify-center text-xs font-bold text-white shrink-0">
             {currentUser.avatar}
           </div>
           <div className="min-w-0">

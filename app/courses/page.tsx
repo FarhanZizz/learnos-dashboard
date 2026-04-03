@@ -119,7 +119,7 @@ export default function Courses() {
 
         {/* Search + Level */}
         <div className="flex gap-3 mb-5 flex-wrap items-center">
-          <div className="relative flex-1 min-w-[200px]">
+          <div className="relative flex-1 min-w-50">
             <Search
               size={14}
               className="absolute left-3 top-1/2 -translate-y-1/2 text-muted"

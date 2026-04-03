@@ -126,7 +126,7 @@ export default function Dashboard() {
                     >
                       {/* Play triangle */}
                       <div
-                        className={`w-0 h-0 border-y-[7px] border-y-transparent border-l-[12px] ml-0.5 ${bar.replace("bg-", "border-l-")}`}
+                        className={`w-0 h-0 border-y-[7px] border-y-transparent border-l-12 ml-0.5 ${bar.replace("bg-", "border-l-")}`}
                         style={{ borderLeftColor: c.color }}
                       />
                     </div>
@@ -238,7 +238,7 @@ export default function Dashboard() {
                   <div
                     className={`w-8 h-8 rounded-full flex items-center justify-center text-[11px] font-bold shrink-0 ${
                       u.isMe
-                        ? "bg-gradient-to-br from-brand to-brand2 text-white"
+                        ? "bg-linear-to-br from-brand to-brand2 text-white"
                         : "bg-surface2 text-muted border border-border2"
                     }`}
                   >
