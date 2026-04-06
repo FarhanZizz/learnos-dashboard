@@ -46,8 +46,6 @@ const activityStyles: Record<string, string> = {
 };
 
 export default function Dashboard() {
-  const [activeTab, setActiveTab] = useState<"week" | "month" | "all">("week");
-
   return (
     <div className="flex min-h-screen bg-bg">
       <Sidebar />
